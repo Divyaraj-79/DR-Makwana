@@ -1310,7 +1310,7 @@ a:focus {
 }
 
 .contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
+/*    background: url(../img/contact.jpg) left center no-repeat;*/
     background-size: contain;
 }
 
@@ -1350,6 +1350,7 @@ a:focus {
 }
 
 .contact .contact-form .btn {
+    margin-left: 40%;
     margin-top: 35px;
     color: #EF233C;
     background: #ffffff;
