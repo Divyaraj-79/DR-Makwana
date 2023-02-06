@@ -40,8 +40,8 @@
                         <!-- <a href="#service" class="nav-item nav-link">Service</a>
                         <a href="#experience" class="nav-item nav-link">Experience</a> -->
                         <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                       <!--  <a href="#price" class="nav-item nav-link">Price</a>
-                        <a href="#review" class="nav-item nav-link">Review</a>
+                        <a href="#learnmore" class="nav-item nav-link">Skills</a>
+<!--                         <a href="#review" class="nav-item nav-link">Review</a>
                         <a href="#team" class="nav-item nav-link">Team</a>
                         <a href="#blog" class="nav-item nav-link">Blog</a> -->
                         <a href="#contact" class="nav-item nav-link">Contact</a>
@@ -66,7 +66,7 @@
                             </div>
                             <div class="hero-btn">
                                 <a class="btn" href="">Resume</a>
-                                <a class="btn" href="">Contact Me</a>
+                                <a class="btn" href="#contact" data-spy="scroll">Contact Me</a>
                             </div>
                         </div>
                     </div>
@@ -151,12 +151,12 @@
                         <ul id="portfolio-filter">
                             <li data-filter="*" class="filter-active">All</li>
                             <li data-filter=".filter-1">College Tutorials</li>
-                            <li data-filter=".filter-2">Websites Developed By Me</li>
+                            <!-- <li data-filter=".filter-2">Websites Developed By Me</li> -->
                             <!-- <li data-filter=".filter-3">Game Dev</li> -->
                         </ul>
                     </div>
                 </div>
-                <div class="row portfolio-container">
+                <div class="row portfolio-container wow zoomIn">
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
@@ -206,7 +206,7 @@
                             <div class="portfolio-img">
                                 <img src="img/portfolio-5.jpg" alt="Image">
                             </div>
-                            <div class="portfolio-text">
+                            <div class="portfolio-text" id="learnmore">
                                 <h3>Tutorial 5</h3>
                                 <a class="btn" href="Tutorial5/index.html">+</a>
                             </div>
@@ -226,52 +226,58 @@
                 </div>
             </div>
         </div>
+
         <!-- Portfolio End -->
         <br>
         <br>
         <br>
         <br>
-        
+
         <!-- More Skills Start -->
-        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="learnmore">
+        
+        <div class="about wow fadeInUp" data-wow-delay="0.1s">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <!-- <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">
-                        </div> -->
                     </div>
+
                     <div class="col-lg-12">
                         <div class="about-content">
-                            <div class="section-header text-center">
+                            <div class="section-header text-center wow zoomIn">
                                 <p>Look at My Professional Skills</p>
                                 
                             </div>
                            
                             <div class="skills">
                                 <div class="skill-name">
-                                    <p>Web Design</p><p>85%</p>
+                                    <p>HTML</p><p>90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>CSS</p><p>80%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>JavaScript</p><p>70%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Python</p><p>90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>PHP</p><p>85%</p>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Web Development</p><p>95%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Apps Design</p><p>50%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Apps Development</p><p>60%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             
@@ -283,9 +289,14 @@
         <!-- More Skills End -->
         
         <!-- Contact Start -->
-        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+        <div class="container section-header text-center wow zoomIn" data-wow-delay="0.1s" style="background-color: #ffffff;" id="contact">
+                    <p>Contact</p>
+                    <h2>Contact Me Here</h2>
+                </div>
+        <div class="contact wow fadeInUp" data-wow-delay="0.1s">
             <div class="container-fluid">
                 <div class="container">
+                  
                     <div class="row align-items-center">
                         <!-- <div class="col-md-4"></div> -->
                         <div class="col-md-12">
